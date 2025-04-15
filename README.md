@@ -77,11 +77,11 @@ The final solution enables users to input weather values and receive real-time p
 ## How to Use 🚀
 
 ### 1. **Machine Learning Model**
-- Open `Untitled.ipynb` in Jupyter Notebook to view the full data preprocessing and model training process.
+- Open `MachineLearningModel.ipynb` in Jupyter Notebook to view the full data preprocessing and model training process.
 - Evaluate predictions, check accuracy, and export the final model and scaler using Joblib.
 
 ### 2. **Streamlit Web App**
-- Run `app.py` to launch the live prediction interface.
+- Run `WeatherPredictionApp.py` to launch the live prediction interface.
 ```bash
 streamlit run app.py
 ```
@@ -97,8 +97,8 @@ streamlit run app.py
 
 | File Name                        | Description                                                |
 |----------------------------------|------------------------------------------------------------|
-| `Untitled.ipynb`                | Jupyter notebook with preprocessing and ML training        |
-| `app.py`                        | Streamlit app for live weather prediction                  |
+| `MachineLearningModel.ipynb`    | Jupyter notebook with preprocessing and ML training        |
+| `WeatherPredictionApp.py`       | Streamlit app for live weather prediction                  |
 | `weather_model.pkl`             | Trained Random Forest model                                |
 | `scaler.pkl`                    | Scaler used for model input normalization                  |
 | `Streamlit.png`                 | Screenshot of deployed web interface                       |
